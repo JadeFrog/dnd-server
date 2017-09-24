@@ -1,7 +1,9 @@
 before_script: ~
-env: ~
+env: 
+  - DJANGO_VERSION=1.11.2
 install: 
   - "pip install -r requirements.txt"
+  - "pip install django==$DJANGO_VERSION"
 language: python
 python: 
   - "3.5"
