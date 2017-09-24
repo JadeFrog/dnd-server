@@ -11,3 +11,5 @@ python:
 script: 
   - "python manage.py test"
 services: ~
+notifications:
+   email: false
